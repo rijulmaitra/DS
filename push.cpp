@@ -35,7 +35,6 @@ int main(){
         s.input();
         s.push();
         s.display();
-        
     }
     return 0;    
 }
