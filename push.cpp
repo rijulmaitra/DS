@@ -6,6 +6,7 @@ class Stack{
         int a[10];
         int value;
     public:
+        // Declaring Constructor
         Stack(){
             top = -1;
         }
@@ -27,7 +28,6 @@ class Stack{
                 return; 
             }
         }
-
 };
 int main(){
     Stack s;
