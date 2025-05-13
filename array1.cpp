@@ -1,24 +1,32 @@
 #include <iostream> 
 using namespace std; 
 int main() {
-    int a[4]={1,2,3,4};
+    int a[4]={3,1,9,4};
     int b[]={3,5,7,9};
-    cout << "----------------" << endl;
+    cout << "------------------------------------------" << endl;
     // display all elements
+    cout << "All elements: " ;
     for (int i=0; i<4; i++){
-        cout << a[i] << endl;
+        cout << a[i] << " ";
     }
-    cout << "----------------" << endl;
+    cout << "\n";
+    cout << "------------------------------------------" << endl;
     // size of arrray
-    cout << sizeof(a) << endl;
-    cout << "----------------" << endl;
+    cout << "Size of array is: " << sizeof(a) << endl;
+    cout << "------------------------------------------" << endl;
     // address of elements
-    cout << &a[0] << endl;
-    cout << &a[1] << endl;
-    cout << &a[2] << endl;
-    cout << &a[3] << endl;
-    cout << "----------------" << endl;
-    
+    cout << "Address of 1st element is: " << &a[0] << endl;
+    cout << "Address of 2nd element is: " << &a[1] << endl;
+    cout << "Address of 3rd element is: " << &a[2] << endl;
+    cout << "Address of 4th element is: " << &a[3] << endl;
+    cout << "------------------------------------------" << endl;
+    // sum of elements
+    int sum = 0;
+    for (int i=0; i<4; i++){
+        sum += a[i];
+    }
+    cout << "Sum of total elements is: " << sum << endl;
+    cout << "------------------------------------------" << endl;    
 
   return 0;
 }
