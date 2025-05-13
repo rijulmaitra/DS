@@ -26,7 +26,17 @@ int main() {
         sum += a[i];
     }
     cout << "Sum of total elements is: " << sum << endl;
-    cout << "------------------------------------------" << endl;    
+    cout << "------------------------------------------" << endl;
+    // highest element in array
+    int max = a[0];
+    for (int i=0; i<4; i++){
+        if (a[i]>max){
+            max = a[i];
+        }
+    }
+    cout << "Highest element in array: " << max << endl;
+    cout << "------------------------------------------" << endl;
+    
 
   return 0;
 }
