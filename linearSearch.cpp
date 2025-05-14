@@ -2,42 +2,24 @@
 #include <iostream>
 using namespace std;
 
-class Linera {
-private:
-    int a[10];
-    int target;
-
-public:
-    Linera() {
-        int temp[10] = {7, 14, 3, 19, 1, 12, 8, 16, 5, 10};
-        for (int i = 0; i < 10; i++) {
-            a[i] = temp[i];
+int linear_search(int arr[], int n, int target) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == target) {
+            return i;
         }
     }
-
-    void input() {
-        cout << "Enter the element you want to search: ";
-        cin >> target;
-    }
-
-    void display() {
-        bool found = false;
-        for (int i = 0; i < 10; i++) {
-            if (a[i] == target) {
-                cout << "Found at index " << i << endl;
-                found = true;
-                break;
-            }
-        }
-        if (!found) {
-            cout << "Not found in the array." << endl;
-        }
-    }
-};
+    return -1;
+}
 
 int main() {
-    Linera l;
-    l.input();
-    l.display();
+    int arr[] = {2, 4, 0, 1, 9};
+    int target = 1;
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int result = linear_search(arr, n, target);
+    if (result != -1) {
+        cout << "Element found at index " << result << endl;
+    } else {
+        cout << "Element not found" << endl;
+    }
     return 0;
 }
