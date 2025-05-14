@@ -20,7 +20,7 @@ public:
         cin >> target;
     }
 
-    void displayy() {
+    void display() {
         bool found = false;
         for (int i = 0; i < 10; i++) {
             if (a[i] == target) {
@@ -38,6 +38,6 @@ public:
 int main() {
     Linera l;
     l.input();
-    l.displayy();
+    l.display();
     return 0;
 }
