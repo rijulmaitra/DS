@@ -1,44 +1,37 @@
-// Linear Search in Array
+// Linear Search in array
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
-class LinearSearch{
-    public:
-        void Linear(){
-            int a[]={24,56,34,69,12};
-            int n=sizeof(a)/sizeof(a[0]);
-            bool flag=false;
-            int target;
-            cout<< "Enter the number you want to search: ";
-            cin>> target;
-
-            for (int i = 0; i < n; i++){
-                if (a[i]==target){
-                    flag=true;
-                    break;
-                }
-            }
-            if(flag==true){
-                cout<<target<<" is present in the array!"<<endl;
-            }
-            else{
-                cout<<target<<" number not found."<<endl;
-            }
-        }
-};
-int main() {
-    LinearSearch l;
-    string answer;
-    while (true)
-    {
-        l.Linear();
-        cout << "Do you want to exit?(yes/no): ";
-        cin >>answer;
-        transform(answer.begin(), answer.end(), answer.begin(), ::tolower);
-        if(answer=="yes"){
-            break;
+int LinearSearch(int arr[], int n, int key) {
+    for(int j = 0; j < n; j++) {
+        if(arr[j] == key) {
+            return j;
         }
     }
+    return -1;
+}
+
+int main() {
+    int n;
+    cout << "Enter the size of the array: ";
+    cin >> n;
+
+    int arr[n];
+    cout << "Enter " << n << " elements:\n";
+    for(int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    int key;
+    cout << "Enter the number you want to search: ";
+    cin >> key;
+
+    int index = LinearSearch(arr, n, key);
+    if(index != -1) {
+        cout << "The number is found at index: " << index << endl;
+    } else {
+        cout << "The number is not found in the array." << endl;
+    }
+
     return 0;
 }
