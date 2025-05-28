@@ -8,9 +8,10 @@ Welcome to my Data Structures practice repository! This repo contains implementa
 - ✅ Vectors
 - ✅ Stacks (Array based)
 - ✅ Sorting & Searching Algorithms
+- ✅ Trees (Binary Tree, BST, Traversals)
 <!--- ✅ Queues (Simple, Circular, and Priority)
 - ✅ Linked Lists (Singly, Doubly, Circular)
-- ✅ Trees (Binary Tree, BST, Traversals)
+
 - ✅ Graphs (Adjacency List/Matrix, DFS, BFS)
 - ✅ Recursion & Backtracking -->
 
