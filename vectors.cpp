@@ -55,6 +55,10 @@ int main() {
     cout << "After erase() Function (Erase 1st element):\n";
     cout << vec1[1] << endl;
 
+    // at()
+    cout << "\n at() Functions (Access value by index number):\n";
+    cout << vec1.at(2) << endl;
+
     cout << "\nAfter clear() Function (Removes all elements):\n";
     vec1.clear();
     for (int i : vec1) {
@@ -62,4 +66,12 @@ int main() {
     }
     return 0;
 }
-// Vector Functions
+// Vector Functions;
+//  ~push_back()
+//  ~pop_back()
+//  ~front()
+//  ~back()
+//  ~begin()
+//  ~at()
+//  ~erase()
+
