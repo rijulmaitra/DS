@@ -7,8 +7,8 @@ Welcome to my Data Structures practice repository! This repo contains implementa
 - ✅ Arrays
 - ✅ Vectors
 - ✅ Stacks (Array based)
-<!--- ✅ Sorting & Searching Algorithms
-- ✅ Queues (Simple, Circular, and Priority)
+- ✅ Sorting & Searching Algorithms
+<!--- ✅ Queues (Simple, Circular, and Priority)
 - ✅ Linked Lists (Singly, Doubly, Circular)
 - ✅ Trees (Binary Tree, BST, Traversals)
 - ✅ Graphs (Adjacency List/Matrix, DFS, BFS)
