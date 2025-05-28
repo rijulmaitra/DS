@@ -14,7 +14,7 @@ Welcome to my Data Structures practice repository! This repo contains implementa
 - ✅ Recursion & Backtracking
 
 ### Command to run vector files
-- g++ -std=c++11 filename.cpp && ./a.out
+- g++ -std=c++11 vectors.cpp && ./a.out
 
 ### 📂 Working on it
 
