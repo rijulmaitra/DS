@@ -7,12 +7,12 @@ Welcome to my Data Structures practice repository! This repo contains implementa
 - ✅ Arrays
 - ✅ Vectors
 - ✅ Stacks (Array & Linked List-based)
+<!--- ✅ Sorting & Searching Algorithms
 - ✅ Queues (Simple, Circular, and Priority)
 - ✅ Linked Lists (Singly, Doubly, Circular)
 - ✅ Trees (Binary Tree, BST, Traversals)
 - ✅ Graphs (Adjacency List/Matrix, DFS, BFS)
-- ✅ Sorting & Searching Algorithms
-- ✅ Recursion & Backtracking
+- ✅ Recursion & Backtracking -->
 
 ### Command to run vector files
 - g++ -std=c++11 vectors.cpp && ./a.out
