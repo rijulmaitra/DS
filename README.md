@@ -13,5 +13,8 @@ Welcome to my Data Structures practice repository! This repo contains implementa
 - ✅ Sorting & Searching Algorithms
 - ✅ Recursion & Backtracking
 
+### Command to run vector file
+- g++ -std=c++11 filename.cpp && ./a.out
+
 ### 📂 Working on it
 
