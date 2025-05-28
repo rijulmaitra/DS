@@ -1,2 +1,11 @@
-int n=5;
-    int arr[]={7,4,8,1,3};
+cout << "Integer Vector:\n";
+    for (int i : vec1) {
+        cout << i << endl;
+    }
+
+    vector<char> vec2 = {'q', 'd', 'g', 'a'};
+
+    cout << "\nCharacter Vector:\n";
+    for (char c : vec2) {
+        cout << c << endl;
+    }
