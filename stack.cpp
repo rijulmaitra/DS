@@ -49,7 +49,7 @@ public:
     }
 
     void peek(){
-        cout << a[top] << endl;
+        cout << "The top element: "<< a[top] << endl;
     }
 
     bool isFull() {
