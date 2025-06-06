@@ -48,6 +48,10 @@ public:
         cout << "\n";
     }
 
+    void peek(){
+        cout << a[top] << endl;
+    }
+
     bool isFull() {
         return top >= 9;
     }
@@ -67,5 +71,8 @@ int main() {
     s.display();
     s.pop();
     s.display();
+
+    s.peek();
+
     return 0;
 }
